@@ -1,0 +1,27 @@
+
+#result{
+    background-color: rgb(228, 221, 221);
+    color:black;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left:10px;
+}
+button{
+    font-weight: 600;
+    font-size:28px;
+}
+button#add,button#multiply,button#subtract,button#division,button#equal,button#decimal{
+    color:blue;
+}
+button#clear{
+    color:red;
+}
+button#equal{
+    background-color: rgb(116, 116, 215);
+    color:white;
+}
+@media screen and (max-width:390px){
+    #title{
+        margin-top:0 !important;
+    }
+}
